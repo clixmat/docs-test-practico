@@ -1,0 +1,19 @@
+{
+    "name": "land-gorilla",
+    "version": "1.0.0",
+    "description": "docs",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "serve": "vitepress preview",
+        "deploy": "gh-pages -d .vitepress/dist",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "dependencies": {
+        "vitepress": "^1.6.3"
+    }
+}
