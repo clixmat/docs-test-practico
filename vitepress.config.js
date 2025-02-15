@@ -4,6 +4,11 @@ export default defineConfig({
   title: "Docs test practico",
   description: "Documentación test practico",
   base: "/docs-test-practico/",
-  cleanUrls: true,
+  outDir: "../dist",
   assetsDir: "assets",
+  vite: {
+    build: {
+      assetsInlineLimit: 0,
+    },
+  },
 });
